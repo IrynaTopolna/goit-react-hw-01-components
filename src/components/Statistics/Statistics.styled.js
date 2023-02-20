@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-  width: 400px;
+  min-width: 400px;
   margin: 0 auto 100px auto;
   display: flex;
   flex-direction: column;
-  //   align-items: center;
   background-color: lightgray;
   box-shadow: 6px 6px 10px -1px rgba(122, 116, 122, 1);
 `;
@@ -26,6 +25,7 @@ export const List = styled.ul`
 
 export const ListItem = styled.li`
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
   align-items: center;
   justify-content: center;
